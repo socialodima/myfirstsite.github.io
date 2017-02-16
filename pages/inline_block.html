@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document2</title>
+    <style>
+        div {
+            background-color: #A0522D; /*sienna*/
+            font-size: 19px;
+        }
+        h2 {
+            color: #FFFFFF; /*white;*/
+            background-color: #000000; /*black*/
+            font-size: 40px;
+        }
+        p {
+            color: #FFFFFF; /*white;*/
+            background-color: #000000; /*black*/
+            font-size: 25px;
+        }
+        span {
+            background-color: #1E90FF; /*dodgerblue*/
+        }
+        #inline-bunch {
+            height: 30px;
+            width: 255px;
+            background-color: #FFFF00; /*yellow*/
+        }
+        #block-level-bunch {
+            height: 30px;
+            width: 300px;
+            background-color: #FFFF00; /*yellow*/
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Block-level vs. inline</h2>
+        <p>There are a couple of key differences between block-level elements and inline elements:</p>
+        <p>By default, block-level elements begin on new lines, but inline elements can start anywhere in a line.</p>
+        <p>Generally, block-level elements may contain inline elements and other block-level elements. Inherent in this structural distinction is the idea that block elements create "larger" structures than inline elements.</p>
+        <h2>Блочные против строчных</h2>
+        <p>Существует несколько ключевых отличий между блочными и строчными элементами:</p>
+        <p>По умолчанию блочные элементы начинаются с новой строки, а строчные могут начинаться в любом месте строки.</p>
+        <p>Как правило, блочные элементы могут содержать строчные элементы и другие блочные элементы. <span>Неотъемлемой частью этого структурного различия является идея, что блочные элементы создают «более крупную» структуру, чем встроенные элементы.</span>
+        </p>
+    </div>
+    <a href="#">
+        <div id="inline-bunch">Ссылка на все inline элементы</div>
+    </a>
+    <a href="#">
+        <div id="block-level-bunch">Ссылка на все block-level элементы</div>
+    </a>
+</body>
+
+</html>
